@@ -1,0 +1,299 @@
+[
+  {
+    "id": "VENDA0001",
+    "cliente": "Joaquim Fogaça",
+    "data": "2025-08-06",
+    "forma_pagamento": "Cartão de Crédito",
+    "valor": 117.43,
+    "desconto": 5.94,
+    "taxa": 3.37,
+    "produtos": [
+      {
+        "id": "PROD006",
+        "descricao": "Meia Esportiva",
+        "quantidade": 1,
+        "valor": 20.0,
+        "desconto_item": 1.17,
+        "taxa_item": 0.05
+      },
+      {
+        "id": "PROD001",
+        "descricao": "Camisa Polo",
+        "quantidade": 1,
+        "valor": 100.0,
+        "desconto_item": 4.77,
+        "taxa_item": 3.32
+      }
+    ]
+  },
+  {
+    "id": "VENDA0002",
+    "cliente": "Dr. João Porto",
+    "data": "2025-08-03",
+    "forma_pagamento": "Cartão de Crédito",
+    "valor": 722.41,
+    "desconto": 46.02,
+    "taxa": 33.43,
+    "produtos": [
+      {
+        "id": "PROD007",
+        "descricao": "Relógio Digital",
+        "quantidade": 2,
+        "valor": 300.0,
+        "desconto_item": 18.24,
+        "taxa_item": 14.18
+      },
+      {
+        "id": "PROD005",
+        "descricao": "Boné Estampado",
+        "quantidade": 3,
+        "valor": 45.0,
+        "desconto_item": 3.18,
+        "taxa_item": 1.69
+      }
+    ]
+  },
+  {
+    "id": "VENDA0003",
+    "cliente": "Augusto Teixeira",
+    "data": "2025-07-18",
+    "forma_pagamento": "Cartão de Débito",
+    "valor": 732.04,
+    "desconto": 53.51,
+    "taxa": 25.55,
+    "produtos": [
+      {
+        "id": "PROD002",
+        "descricao": "Calça Jeans",
+        "quantidade": 3,
+        "valor": 120.0,
+        "desconto_item": 5.27,
+        "taxa_item": 5.39
+      },
+      {
+        "id": "PROD007",
+        "descricao": "Relógio Digital",
+        "quantidade": 1,
+        "valor": 300.0,
+        "desconto_item": 28.79,
+        "taxa_item": 5.51
+      },
+      {
+        "id": "PROD001",
+        "descricao": "Camisa Polo",
+        "quantidade": 1,
+        "valor": 100.0,
+        "desconto_item": 8.91,
+        "taxa_item": 3.87
+      }
+    ]
+  },
+  {
+    "id": "VENDA0004",
+    "cliente": "Bianca Moreira",
+    "data": "2025-08-07",
+    "forma_pagamento": "Cartão de Débito",
+    "valor": 403.0,
+    "desconto": 40.3,
+    "taxa": 8.3,
+    "produtos": [
+      {
+        "id": "PROD007",
+        "descricao": "Relógio Digital",
+        "quantidade": 1,
+        "valor": 300.0,
+        "desconto_item": 29.38,
+        "taxa_item": 2.72
+      },
+      {
+        "id": "PROD005",
+        "descricao": "Boné Estampado",
+        "quantidade": 3,
+        "valor": 45.0,
+        "desconto_item": 3.64,
+        "taxa_item": 1.86
+      }
+    ]
+  },
+  {
+    "id": "VENDA0005",
+    "cliente": "Luiz Miguel Moraes",
+    "data": "2025-07-18",
+    "forma_pagamento": "Cartão de Crédito",
+    "valor": 395.68,
+    "desconto": 14.59,
+    "taxa": 10.27,
+    "produtos": [
+      {
+        "id": "PROD001",
+        "descricao": "Camisa Polo",
+        "quantidade": 1,
+        "valor": 100.0,
+        "desconto_item": 3.61,
+        "taxa_item": 2.5
+      },
+      {
+        "id": "PROD007",
+        "descricao": "Relógio Digital",
+        "quantidade": 1,
+        "valor": 300.0,
+        "desconto_item": 10.98,
+        "taxa_item": 7.77
+      }
+    ]
+  },
+  {
+    "id": "VENDA0006",
+    "cliente": "Letícia Caldeira",
+    "data": "2025-07-30",
+    "forma_pagamento": "Pix",
+    "valor": 347.48,
+    "desconto": 25.44,
+    "taxa": 12.92,
+    "produtos": [
+      {
+        "id": "PROD003",
+        "descricao": "Tênis Esportivo",
+        "quantidade": 2,
+        "valor": 180.0,
+        "desconto_item": 12.72,
+        "taxa_item": 6.46
+      }
+    ]
+  },
+  {
+    "id": "VENDA0007",
+    "cliente": "Fernanda da Rosa",
+    "data": "2025-07-10",
+    "forma_pagamento": "Boleto",
+    "valor": 301.97,
+    "desconto": 26.39,
+    "taxa": 3.36,
+    "produtos": [
+      {
+        "id": "PROD005",
+        "descricao": "Boné Estampado",
+        "quantidade": 1,
+        "valor": 45.0,
+        "desconto_item": 4.29,
+        "taxa_item": 0.24
+      },
+      {
+        "id": "PROD006",
+        "descricao": "Meia Esportiva",
+        "quantidade": 2,
+        "valor": 20.0,
+        "desconto_item": 0.91,
+        "taxa_item": 0.13
+      },
+      {
+        "id": "PROD002",
+        "descricao": "Calça Jeans",
+        "quantidade": 2,
+        "valor": 120.0,
+        "desconto_item": 10.14,
+        "taxa_item": 1.43
+      }
+    ]
+  },
+  {
+    "id": "VENDA0008",
+    "cliente": "Ana Lívia da Mata",
+    "data": "2025-07-09",
+    "forma_pagamento": "Dinheiro",
+    "valor": 59.85,
+    "desconto": 2.4,
+    "taxa": 2.25,
+    "produtos": [
+      {
+        "id": "PROD006",
+        "descricao": "Meia Esportiva",
+        "quantidade": 3,
+        "valor": 20.0,
+        "desconto_item": 0.8,
+        "taxa_item": 0.75
+      }
+    ]
+  },
+  {
+    "id": "VENDA0009",
+    "cliente": "Dra. Carolina da Mota",
+    "data": "2025-07-20",
+    "forma_pagamento": "Boleto",
+    "valor": 642.47,
+    "desconto": 42.17,
+    "taxa": 24.64,
+    "produtos": [
+      {
+        "id": "PROD004",
+        "descricao": "Jaqueta Corta-Vento",
+        "quantidade": 2,
+        "valor": 220.0,
+        "desconto_item": 14.99,
+        "taxa_item": 9.07
+      },
+      {
+        "id": "PROD001",
+        "descricao": "Camisa Polo",
+        "quantidade": 1,
+        "valor": 100.0,
+        "desconto_item": 1.05,
+        "taxa_item": 1.25
+      },
+      {
+        "id": "PROD002",
+        "descricao": "Calça Jeans",
+        "quantidade": 1,
+        "valor": 120.0,
+        "desconto_item": 11.14,
+        "taxa_item": 5.25
+      }
+    ]
+  },
+  {
+    "id": "VENDA0010",
+    "cliente": "Erick da Rocha",
+    "data": "2025-08-01",
+    "forma_pagamento": "Cartão de Débito",
+    "valor": 200.94,
+    "desconto": 5.32,
+    "taxa": 6.26,
+    "produtos": [
+      {
+        "id": "PROD001",
+        "descricao": "Camisa Polo",
+        "quantidade": 2,
+        "valor": 100.0,
+        "desconto_item": 2.66,
+        "taxa_item": 3.13
+      }
+    ]
+  },
+  {
+    "id": "VENDA0011",
+    "cliente": "Maria Clara Martins",
+    "data": "2025-07-21",
+    "forma_pagamento": "Cartão de Crédito",
+    "valor": 83.43,
+    "desconto": 3.42,
+    "taxa": 1.85,
+    "produtos": [
+      {
+        "id": "PROD006",
+        "descricao": "Meia Esportiva",
+        "quantidade": 2,
+        "valor": 20.0,
+        "desconto_item": 0.41,
+        "taxa_item": 0.13
+      },
+      {
+        "id": "PROD005",
+        "descricao": "Boné Estampado",
+        "quantidade": 1,
+        "valor": 45.0,
+        "desconto_item": 2.6,
+        "taxa_item": 1.59
+      }
+    ]
+  }
+]

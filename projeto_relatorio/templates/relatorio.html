@@ -2,100 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Relatório da Empresa</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            margin: 40px;
-        }
-
-        h1 {
-            color: #ff6600;
-            text-align: center;
-            font-size: 36px;
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #ff6600;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        strong {
-            color: #000;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-
-        th {
-            background-color: #ff6600;
-            color: white;
-            padding: 10px;
-            text-align: left;
-        }
-
-        td {
-            padding: 10px;
-        }
-
-        img {
-            display: block;
-            margin: 30px auto;
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: white;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        a:hover {
-            background-color: #218838;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-    <h1>Relatório de Vendas</h1>
-
-    <h2>Dados da Empresa</h2>
-    <p><strong>Nome:</strong> {{ empresa.nome }}</p>
-    <p><strong>CNPJ:</strong> {{ empresa.cnpj }}</p>
-    <p><strong>Endereço:</strong> {{ empresa.endereco }}</p>
-
-    <h2>Tabela de Vendas</h2>
-    {{ dados|safe }}
-
-    <h2>Gráfico de Vendas</h2>
-    <img src="/static/grafico.png" alt="Gráfico de Vendas">
-
-    <p><a href="/gerar-relatorio">📄 Baixar PDF do Relatório</a></p>
+<body class="tema-geral">
+    <div class="container text-center">
+        <h1 class="titulo">Relatório de Vendas</h1>
+        <h2 class="texto dois">Tabela de Vendas</h2>
+        <h2 class="texto tres">Gráfico de Vendas</h2>
+    </div>
 </body>
-</html>

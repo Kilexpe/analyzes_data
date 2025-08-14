@@ -1,0 +1,35 @@
+.tema-geral {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.titulo {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.texto {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;                  /* Retira margens padrão */
+    height: 100vh;              /* Ocupa a tela toda */
+    display: flex;              /* Ativa o flexbox */
+    justify-content: center;    /* Centraliza na horizontal */
+    align-items: center;        /* Centraliza na vertical */
+}
+
+.container {
+    text-align: center;         /* Centraliza o texto dentro do container */

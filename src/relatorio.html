@@ -1,0 +1,58 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório da Empresa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="tema-geral">
+
+    <div class="container text-center">
+        <h1 class="titulo">Relatório de Vendas</h1>
+
+        <h2 class="texto dois">Tabela de Vendas</h2>
+        <table>
+
+        </table>
+
+        <table class="container text-center">
+            <tr>
+                <td><strong>id</strong></td>
+                <td><strong>cliente</strong></td>
+                <td><strong>data</strong></td>
+                <td><strong>forma_pagamento</strong></td>
+                <td><strong>valor</strong></td>
+                <td><strong>desconto</strong></td>
+                <td><strong>taxa</strong></td>
+            </tr>
+            <tbody id="tabelas"></tbody>
+        </table>
+
+        <h2 class="texto tres">Gráfico de Vendas</h2>
+    </div>
+        <script>
+            fetch("vendas_exemplo.json")
+                .then(response => response.json())
+                .then(vendas => {
+                    const container = document.getElementById("tabelas");
+
+                    vendas.forEach(venda => {
+                        let row = `
+                            <tr>
+                                <td>${venda.id}</td>
+                                <td>${venda.cliente}</td>
+                                <td>${venda.data}</td>
+                                <td>${venda.forma_pagamento}</td>
+                                <td>R$ ${venda.valor.toFixed(2)}</td>
+                                <td>R$ ${venda.desconto.toFixed(2)}</td>
+                                <td>R$ ${venda.taxa.toFixed(2)}</td>
+                            </tr>
+                        `;
+
+                         container.innerHTML += row;
+                    });
+                })
+                .catch(err => console.erro("erro ao Carregar JSON:", err));
+        </script>
+</body>
+</html>

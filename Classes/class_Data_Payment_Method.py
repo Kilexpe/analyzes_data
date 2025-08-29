@@ -1,5 +1,5 @@
 import json
-with open("vendas_exemplo.json") as file:
+with open("../src/vendas_exemplo.json") as file:
     file_json = json.load(file)
 #exemplo: (data[b]['valor'])
 
